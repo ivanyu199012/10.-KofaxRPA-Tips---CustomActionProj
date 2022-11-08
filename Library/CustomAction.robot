@@ -9,6 +9,7 @@
     <triggers/>
     <sub-robots>
       <sub-robot name="CustomActionDANodeJS"/>
+      <sub-robot name="CustomActionDAPython"/>
     </sub-robots>
     <device-mappings/>
     <comment/>
@@ -47,7 +48,8 @@
   <property name="transitionGraph" class="Body">
     <blockBeginStep class="BlockBeginStep" id="2"/>
     <steps class="ArrayList">
-      <object class="Transition" serializationversion="3" id="3">
+      <object class="BranchPoint" id="3"/>
+      <object class="Transition" serializationversion="3" id="4">
         <property name="name" class="String">Call CustomActionDANodeJS</property>
         <property name="stepAction" class="CallRobot2Step">
           <property name="robot2Name" class="String">CustomActionDANodeJS</property>
@@ -60,7 +62,21 @@
         <property name="enabled" idref="1"/>
         <property name="changedProperties" class="java.util.HashSet"/>
       </object>
-      <object class="End" id="4"/>
+      <object class="End" id="5"/>
+      <object class="Transition" serializationversion="3" id="6">
+        <property name="name" class="String">Call CustomActionDAPython</property>
+        <property name="stepAction" class="CallRobot2Step">
+          <property name="robot2Name" class="String">CustomActionDAPython</property>
+        </property>
+        <property name="elementFinders" class="ElementFinders"/>
+        <property name="errorHandler" class="ErrorHandler" serializationversion="0"/>
+        <property name="comment">
+          <null/>
+        </property>
+        <property name="enabled" idref="1"/>
+        <property name="changedProperties" class="java.util.HashSet"/>
+      </object>
+      <object class="End" id="7"/>
     </steps>
     <blockEndStep class="BlockEndStep"/>
     <edges class="ArrayList">
@@ -73,6 +89,24 @@
       <object class="TransitionEdge">
         <from idref="3"/>
         <to idref="4"/>
+        <name/>
+        <comment/>
+      </object>
+      <object class="TransitionEdge">
+        <from idref="3"/>
+        <to idref="6"/>
+        <name/>
+        <comment/>
+      </object>
+      <object class="TransitionEdge">
+        <from idref="4"/>
+        <to idref="5"/>
+        <name/>
+        <comment/>
+      </object>
+      <object class="TransitionEdge">
+        <from idref="6"/>
+        <to idref="7"/>
         <name/>
         <comment/>
       </object>
