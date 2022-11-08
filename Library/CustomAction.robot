@@ -8,7 +8,7 @@
     <referenced-types/>
     <triggers/>
     <sub-robots>
-      <sub-robot name="CustomActionDA"/>
+      <sub-robot name="CustomActionDANodeJS"/>
     </sub-robots>
     <device-mappings/>
     <comment/>
@@ -48,9 +48,9 @@
     <blockBeginStep class="BlockBeginStep" id="2"/>
     <steps class="ArrayList">
       <object class="Transition" serializationversion="3" id="3">
-        <property name="name" class="String">Call CustomActionDA</property>
+        <property name="name" class="String">Call CustomActionDANodeJS</property>
         <property name="stepAction" class="CallRobot2Step">
-          <property name="robot2Name" class="String">CustomActionDA</property>
+          <property name="robot2Name" class="String">CustomActionDANodeJS</property>
         </property>
         <property name="elementFinders" class="ElementFinders"/>
         <property name="errorHandler" class="ErrorHandler" serializationversion="0"/>
