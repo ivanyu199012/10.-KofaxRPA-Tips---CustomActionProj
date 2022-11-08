@@ -83,60 +83,6 @@
           }
         }
       }
-    },
-    {
-      "meta":{
-        "className":"VariableDef",
-        "version":1
-      },
-      "gizmo":{
-        "id": { "string": "is_file_exists_py" },
-        "typ": {
-          "meta":{
-            "className":"TypeUse",
-            "version":0
-          },
-          "gizmo":{
-            "id": { "string": "Text" }
-          }
-        },
-        "comment": {
-          "meta":{
-            "className":"Comment",
-            "version":0
-          },
-          "gizmo":{
-            "comment": { "string": "" }
-          }
-        }
-      }
-    },
-    {
-      "meta":{
-        "className":"VariableDef",
-        "version":1
-      },
-      "gizmo":{
-        "id": { "string": "my_data_set_str" },
-        "typ": {
-          "meta":{
-            "className":"TypeUse",
-            "version":0
-          },
-          "gizmo":{
-            "id": { "string": "Text" }
-          }
-        },
-        "comment": {
-          "meta":{
-            "className":"Comment",
-            "version":0
-          },
-          "gizmo":{
-            "comment": { "string": "" }
-          }
-        }
-      }
     }],
     "block": {
       "meta":{

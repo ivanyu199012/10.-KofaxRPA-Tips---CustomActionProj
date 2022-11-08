@@ -36,60 +36,6 @@
         "version":1
       },
       "gizmo":{
-        "id": { "string": "isExistStr" },
-        "typ": {
-          "meta":{
-            "className":"TypeUse",
-            "version":0
-          },
-          "gizmo":{
-            "id": { "string": "Text" }
-          }
-        },
-        "comment": {
-          "meta":{
-            "className":"Comment",
-            "version":0
-          },
-          "gizmo":{
-            "comment": { "string": "" }
-          }
-        }
-      }
-    },
-    {
-      "meta":{
-        "className":"VariableDef",
-        "version":1
-      },
-      "gizmo":{
-        "id": { "string": "outputMessage" },
-        "typ": {
-          "meta":{
-            "className":"TypeUse",
-            "version":0
-          },
-          "gizmo":{
-            "id": { "string": "Text" }
-          }
-        },
-        "comment": {
-          "meta":{
-            "className":"Comment",
-            "version":0
-          },
-          "gizmo":{
-            "comment": { "string": "" }
-          }
-        }
-      }
-    },
-    {
-      "meta":{
-        "className":"VariableDef",
-        "version":1
-      },
-      "gizmo":{
         "id": { "string": "is_file_exists_py" },
         "typ": {
           "meta":{
